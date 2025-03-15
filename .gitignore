@@ -3,6 +3,16 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+*.sqlite3
+*.pyc
+__pycache__/
+.env
+venv/
+.env/
+media/
+staticfiles/
+.DS_Store
+
 # User-specific files
 *.rsuser
 *.suo
