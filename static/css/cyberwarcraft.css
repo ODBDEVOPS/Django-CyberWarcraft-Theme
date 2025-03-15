@@ -1,0 +1,28 @@
+:root {
+    --void-black: #0a0a12;
+    --arcanite-gold: #ffd700;
+    --fel-green: #4efd3e;
+    --mana-blue: #63b3ff;
+    --shadowforge-steel: #2c2c3a;
+    --hologram-pink: #ff00ff;
+}
+
+body {
+    background: radial-gradient(circle at center, 
+        var(--void-black) 0%, 
+        #1a1a2f 100%);
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Effet de texture "Runes" */
+body::after {
+    content: "";
+    background: url('runes.png') repeat;
+    opacity: 0.1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
