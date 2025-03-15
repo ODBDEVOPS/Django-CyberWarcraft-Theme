@@ -1,4 +1,5 @@
 # Django-CyberWarcraft-Theme
+```bash
 django-starter-kit/
 ├── .github/
 │   ├── workflows/
@@ -27,3 +28,4 @@ django-starter-kit/
 ├── manage.py
 ├── README.md              # Instructions
 └── requirements.txt
+```
