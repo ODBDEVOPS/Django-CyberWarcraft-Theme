@@ -1,0 +1,4 @@
+django>=4.2
+django-bootstrap5==23.3
+pillow==10.0.0
+python-dotenv==1.0.0
