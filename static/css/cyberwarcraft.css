@@ -26,3 +26,31 @@ body::after {
     bottom: 0;
     z-index: -1;
 }
+/* Cartes Forgefer */
+.card-azeroth {
+    background: linear-gradient(45deg, 
+        var(--shadowforge-steel) 0%,
+        var(--void-black) 100%);
+    border: 2px solid var(--arcanite-gold);
+    border-image: linear-gradient(45deg, 
+        var(--fel-green), 
+        var(--mana-blue)) 1;
+    box-shadow: 0 0 25px var(--hologram-pink);
+}
+
+/* Boutons Portail Dimensionnel */
+.btn-portal {
+    background: none;
+    border: 3px solid;
+    border-image: linear-gradient(
+        45deg,
+        var(--fel-green),
+        var(--mana-blue)
+    ) 1;
+    animation: portal-glow 2s infinite alternate;
+}
+
+@keyframes portal-glow {
+    from { filter: drop-shadow(0 0 5px var(--fel-green)); }
+    to { filter: drop-shadow(0 0 20px var(--mana-blue)); }
+}
